@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+background-color: black;
+
+}
+.logo{
+    height: 45px;
+    width: 167px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+h1{
+    color: white;
+    margin-bottom: 30px;
+    
+}
+.users{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+.users div img{
+    width: 150px;
+    height: 150px;
+}
+
+.users div img:hover{
+    border: solid;
+    border-color: white;
+    transform: scale(1.1);
+    transition: 100ms linear; 
+    ;
+    
+}
+.users div p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+main button{
+    background-color: black;
+    color: white;
+    border-color: white;
+    padding: 10px 20px;
+    width: 270px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+

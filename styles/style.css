@@ -1,0 +1,210 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body{
+    background-image: linear-gradient(to right bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.5))
+    ,url("https://assets.nflxext.com/ffe/siteui/vlv3/d0982892-13ac-4702-b9fa-87a410c1f2da/31683233-df64-427d-9330-82deac4c28c1/MX-en-20220321-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+
+.logo{
+    height: 45px;
+    width: 167px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    }
+
+main{
+    background-color: rgba(0,0,0,.75);
+    border-radius: 8px;
+    margin: 50px auto 100px;
+    padding: 70px 60px 150px;
+    width: 500px;
+    }
+
+main h1{
+    color: white;
+    margin-bottom: 30px;
+    }
+
+main form input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    }
+
+main form input::placeholder{
+    color: #8c8c8c;
+    font-size: 17px;
+    }
+
+main form input[type="text"], main form input[type="password"]{
+    background-color: #333;
+    border: transparent;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: white;
+    }
+
+main form input[type="submit"]{
+   background: #e50914;
+   outline: none;
+   border: transparent;
+   color: white;
+   font-size: 16px;
+   margin-top: 45px;
+   cursor: pointer;
+    }
+
+.fb{
+    height: 20px;
+    width: 20px;
+    }
+
+.info{
+    color: white;
+    }
+.check{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 500;
+    }
+.check a{
+    text-decoration: none;
+    color:#b3b3b3;
+}
+
+.check a:visited{
+    color: #b3b3b3;
+}
+
+.check a:hover{
+    text-decoration: underline;
+}
+
+#remember{
+    background-color: #737373; 
+    border-radius: 2px;
+    border: 0;
+    height: 16px;
+    width: 16px;
+}
+.log-fb{
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.log-fb span{
+   
+    color: #737373;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+   }
+
+.p1{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.p1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.p1 a:hover{
+    text-decoration: underline;
+}
+
+.p2{
+    margin-top: 11px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+.p2 a{
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    text-decoration: none;
+}
+.p2 a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(0,0,0,.75);
+    padding: 30px 45px 55px;   
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul li{
+    width: 100px;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #757575;
+    
+}
+
+footer ul li a:visited{
+    color:#757575;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    color: #757575;
+}
+footer p a:visited{
+    color: #757575;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #757575;
+    
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer select{
+    background-color: #000;
+    border: 1px solid #333;
+    color: gray;
+    outline: none;
+    padding: 15px;
+}
+

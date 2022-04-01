@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+body{
+    background-color:#222;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.search{
+    border-color: white;
+   
+}
+
+.search input{
+    background-color: black;
+    border-color: white;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo{
+    height: 45px;
+    width: 167px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li{
+    margin: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: #757575;
+}
+
+nav li a:visited{
+    color: #757575;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.margen{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.n-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.new{
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(/images/fondo.jpg);
+    min-height: 500px;
+    min-width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: end;
+    
+
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.title  h2{
+   font-weight: lighter;
+}
+
+.margen p{
+    margin-bottom: 50px;
+    width: 30%;
+}
+
+.margen button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn1{
+    background-color: white;
+    color: black;
+}
+
+.btn2{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+.margen button i{
+    margin-right: 20px;
+}
+
+.seccion{
+    width: 90%;
+    margin: 0px auto;
+    color: white;
+    
+   
+}
+.fila{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .peli{
+     margin-top: 20px;
+     margin-bottom: 30px;
+ }
+ 
+ .peli img{
+    width: 300px;
+    height: 150px;
+}
+
+.peli img:hover{
+    transform: scale(1.1);
+    transition: 100ms linear; 
+}
+
+footer{
+        background-color: rgba(0,0,0,.75);
+        padding: 30px 45px 55px;   
+    }
+    
+footer ul{
+        list-style-type: none;
+        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+footer ul li{
+        width: 100px;
+        min-width: 200px;
+        margin-bottom: 20px;
+    }
+    
+footer ul li a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #757575;
+        
+    }
+    
+footer ul li a:visited{
+        color:#757575;
+    }
+    
+footer ul li a:hover{
+        text-decoration: underline;
+    }
+    
+footer p{
+        color: #757575;
+    }
+    
+    
+footer p a:visited{
+        color: #757575;
+    }
+    
+    
+footer p a{
+        text-decoration: none;
+        color: #757575;
+        }
+    
+footer p a:hover{
+        text-decoration: underline;
+    }
+    
+footer select{
+        background-color: #000;
+        border: 1px solid #333;
+        color: gray;
+        outline: none;
+        padding: 15px;
+    }
